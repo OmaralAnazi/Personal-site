@@ -8,10 +8,11 @@ body {
     font-size: 21px;
     margin: 0;
     font-weight: 300; 
-    background-color: #D9D0DE;
+    background-color: #e9e4eb;
 }
 
 img {
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -31,11 +32,16 @@ h2 {
     font-size: 42px;
     margin-top: 0;
 
-    border-top: solid 1px #c4c4c4;
-    border-bottom: solid 1px #c4c4c4;
+    border-top: solid 1px #171A21;
+    border-bottom: solid 1px #171A21;
     
     padding: 20px 0;
     margin-bottom: 20px;
+}
+
+.dark-theme h2 {
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
 }
 
 h3 {

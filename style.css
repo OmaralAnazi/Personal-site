@@ -6,8 +6,9 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
-    font-weight: 300;
     margin: 0;
+    font-weight: 300; 
+    background-color: #D9D0DE;
 }
 
 img {
@@ -19,19 +20,17 @@ img {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-weight: 300; 
-}
-
 h1 {
+    font-weight: normal;
     font-size: 60px;
     margin-top: 0;
 }
 
 h2 {
+    font-weight: normal;
     font-size: 42px;
     margin-top: 0;
+
     border-top: solid 1px #c4c4c4;
     border-bottom: solid 1px #c4c4c4;
     
@@ -41,7 +40,6 @@ h2 {
 
 h3 {
     font-size: 36px;
-    font-weight: 900;
     margin-bottom: 0;
 }
 
@@ -60,25 +58,25 @@ h2 .accent-text {
 .accent-text,
 .name,
 time {
-    font-weight: 900;
-    color: #99D930;
+    font-weight: bold;
+    color: #32908F;
 }
 
 p {
     margin-bottom: 0;
 }
 
-button {
-    color: #99D930;
-    font-weight: 900;
+#read-more-or-less {
+    color: #32908F;
+    font-weight: bold;
     text-decoration: underline;
     background: none;
     border: none;
 }
 
-button:hover,
-button:focus {
-    color: #131313;
+#read-more-or-less:hover,
+#read-more-or-less:focus {
+    color: #114b4b;
 }
 
 .small-text {
@@ -86,33 +84,27 @@ button:focus {
     margin-top: 5px;
 } 
 
-header,
-section {
+header, section {
     padding: 100px 0;
 }
 
-.inverse {
-    color: #fff;
-    background: #252525;
-}
-
-.inverse .btn:hover,
-.inverse .btn:focus {
-    background: #fff;
-    color: #252525;
+.dark-theme {
+    color: whitesmoke;
+    background: #171A21;
 }
 
 .btn {
     display: inline-block;
     color: #252525;
     text-decoration: none;
-    background: #99D930;
+    background: #32908F;
     padding: 10px 25px;
     margin-top: 25px;
+    border-radius: 6px;
 }
 
 .btn:hover,
 .btn:focus {
-    background: #252525;
-    color: #fff;
+    background: #171A21;
+    color: whitesmoke;
 }
